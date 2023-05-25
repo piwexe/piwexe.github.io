@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span id="name_output">Артём</span>
+            <span id="surname_output">Бойко</span>
+        </h1>
+    </header>
+
+    <div class="header">
+        <img width='350' height='400' src="https://i.pinimg.com/originals/1e/83/cf/1e83cf51c8012a56c3dc145dbd611c5f.jpg"
+            alt="photo">
+    </div>
+
+    <div class="mb-15">
+        <input type="text" size="22" id="name_input" placeholder="Введите ваше имя"></input>
+        <button onclick="name_change()">подтвердить</button><br>
+        <input type="text" size="22" id="surname_input" placeholder="Введите вашу фамилию"></input>
+        <button onclick="surname_change()">подтвердить</button><br>
+    </div>
+
+    <div class="mb-15">
+    <input type="number" style="width: 160px" id="age" placeholder="Введите ваш возвраст"></input>
+    <button type="button" onclick="con()">подтвердить</button><br>
+    </div>
+
+    <div class="mb-15">
+        <label >Опишите свои хобби:<br><textarea id="hobby" cols="30" rows="5">...</textarea></label>
+    </div>
+
+    <div class="mb-15">
+    <label>Я согласен на обработку личных данных<input type="checkbox" id="submition"></label>
+    </div>
+
+    <div class="mb-15">
+        <label class="mb-15">First number:<input type="number" id="fnum"></label>
+        <label >Second number: <input type="number" id="snum"></label>
+        <button type="button" onclick="equal()">Try it</button>
+    </div>
+
+    <div class="mb-15">
+        <label >Name:<input type="text" id="name"></label>
+        <button type="button" onclick="admin()">Try it</button>
+        <div id="admin"></div>
+    </div>
+
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+</body>
+</html>
+
+<!-- document.getElementById("myText").disabled = true; -->
